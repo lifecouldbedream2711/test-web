@@ -1,0 +1,558 @@
+body,button{
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    width: 100vw;
+}
+.task_bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 16px;
+  background: rgba(255,255,255,0.96);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+.hero-title {
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 24px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+   letter-spacing: 4px;
+}
+.right_bar a{
+    display: inline-block;
+    text-decoration: none;
+}
+.task_bar a{
+   padding:16px 12px;
+}
+.task_bar a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header_section{
+    position: relative;
+    width: 100vw;
+    margin-top: 56px;
+    left: 0px;
+    height: 90vh;
+    background-image: url("https://img.thuthuat123.com/uploads/2019/07/16/hinh-anh-goku-cuc-dep_030302644.jpg");
+    background-size: cover;
+    color: white;
+    background-position: center;
+}
+
+.header_content{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+.header_section .icon_bar{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+#learn_more{
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+}
+#learn_more:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.topic{
+    padding: 80px 100px;
+    text-align: center;
+}
+.topic p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.topic div{
+    font-size: 18px;
+}
+
+/* About item */
+.about { 
+    text-align: center; 
+    padding: 18px; 
+}
+.about i { 
+    font-size: 48px; 
+    margin-bottom: 12px; 
+}
+.about label, .about p { 
+    color: #555; font-size: 14px; 
+}
+.about_container{
+    display: flex;
+    justify-content: space-around;   
+    flex-wrap: wrap;
+    padding: 0px 8px;
+}
+.about_container .about i{
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+.about_container .about{
+    text-align: center;
+    display: inline-block;
+    width: 23%;
+}
+.about label{
+    font-size: 15px;
+}
+#about {
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+.viewport{
+    padding: 128px 16px 128px 16px;
+    background-color:  #F1F1F1;
+}
+.viewport_content{
+    float: left;
+    width: 736.388px;
+    padding-left: 8px;
+}
+.viewport img{
+    height: 394px;
+    width: 700px;
+    max-width: 100%;
+}
+.view_work{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+}
+.view_work:hover{
+    background-color: #CCCCCC;
+    color:black
+}
+/* Team card */
+
+.team_container .member img { 
+    width: 100%; 
+    height: 220px; 
+    object-fit: cover; 
+}
+.team_container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 8px;
+    margin-bottom: 150px;
+}
+.team_container .member{
+    display: inline-block;
+    width: 23%;
+    text-align: left;
+    border: solid 1px #CCCCCC;
+    margin-left: 11px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.team_container .member img{
+   height: 234.55px;
+   width: 100%;
+}
+.member_description{
+    padding-left: 15px;
+}
+.member .name{
+    padding: 15px 0px 15px 0px;
+    font-size: 24px;
+}
+.member label{
+    display: block;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.member a{
+    display: block;
+    margin: 15px 0px 15px 15px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.member a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.so_lieu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #616161;
+    padding: 80px 16px;
+    color: white;
+    flex-wrap: wrap;
+}
+.so_lieu div{
+    text-align: center;
+}
+.so_lieu label{
+    font-size: 18px;
+}
+.so_lieu p{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.our_work{
+    padding: 80px 10px;
+}
+.work_images img{
+    display: inline-block;
+    padding-left: 12px;
+    height: 230px;
+    width: 24%;
+    margin-bottom: 10px;
+}
+.our_work .work_images{
+    text-align: center;
+}
+.our_skills{
+    display: flex   ;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+    padding: 80px 16px 50px 16px;
+    flex-wrap: wrap;
+    
+}
+.skill_content{
+    width: 736.388px;
+    padding-left: 20px;
+}
+.skill_content p{
+    padding-bottom: 20px;
+}
+.skill_title{
+    letter-spacing: 4px;
+    padding: 8px;
+}
+.skill_information{
+
+    float: left;
+    width: 100%;
+    max-width: 700px;  
+}
+.skill_box{
+    margin-bottom: 24px;
+}
+.skill_progress{
+    text-align: center;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 28px;
+}
+.skill_percentage{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    height: 28px;
+}
+.pricing{
+    background-color: #616161;
+    padding-bottom: 130px;
+    overflow: visible;
+}
+.pricing_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 16px;
+}
+.pricing_container .price_box{
+    width: 480px;
+    background-color: white;
+    text-align: center;
+
+}
+.price_head_black{
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+    font-size: 24px;
+}
+.price_box:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.price_head{
+    background-color: #F44336;
+    padding: 55px 0px;
+    font-size: 24px;
+    color: white;
+}
+.price_box p{
+    padding: 16px 0px;
+    border-bottom: solid 1px #CCCCCC;
+}
+.price{
+    padding: 16px 0px;
+    border-bottom: solid 1px #CCCCCC;
+}
+.price div{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.price label{
+    color: gray;
+}
+.button_container{
+    margin:0;
+    padding: 23px 0px;
+    background-color: #F1F1F1;
+}
+.button_container button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    width: 25%;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.down{
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.contact_info i{
+    font-size: 30px;
+    padding-right: 19px;
+}
+.contact_info p{
+    margin-bottom: 13px;
+}
+#contact {
+    background-color: #F1F1F1;
+    padding: 80px 16px 80px 16px;
+}
+.contact_form input,textarea{
+    width: 100%;
+    padding: 12px;
+    border: solid 1px #CCCCCC;
+}
+.form_group{
+    margin-bottom: 16px;
+}
+
+.contact_form button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.Ending_section{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 80px 16px;
+}
+.Ending_section .social_media a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.up{
+    display: inline-block;
+    color: black;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+.Ending_section i{
+    font-size: 24px;
+}
+
+.container, .main, body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  .hero-title { font-size: 45px;
+    line-height: 60px
+   } 
+}
+.invalid input{
+    border-color: red;
+}
+.invalid .form_message{
+    color: red;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+#menu_icon {
+    display: none;
+}
+
+
+
+/* ==========================================================================
+   GLOBAL RESET + BASE
+   ========================================================================== */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body, button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #111;
+  width: 100%;
+  max-width: 100%;
+}
+
+img { display: block; height: auto; }
+
+/* ==========================================================================
+   TASK BAR
+   - fixed top, responsive
+   ========================================================================== */
+.task_bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 5px 16px;
+  background: rgba(255,255,255,0.96);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+
+/* right_bar: nav links */
+.right_bar{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+/* each link */
+.right_bar > a{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+}
+.right_bar > a:hover{
+  background: rgba(0,0,0,0.06);
+}
+
+/* optional icon (keeps spacing if present) */
+#menu_icon {
+  display: none; /* we'll show on small screens if wanted */
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.header_content {
+  max-width: 900px;
+  padding: 24px 12px;
+}
+.icon_bar i {
+  color: rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+/* ==========================================================================
+   VIEWPORT (text + image) - use flex instead float
+   ========================================================================== */
+.viewport {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 48px 16px;
+  background-color: #F1F1F1;
+  flex-wrap: wrap;
+}
+.viewport_content {
+  flex: 1 1 320px;
+  max-width: 720px;
+  padding-left: 8px;
+}
+
+.Ending_section .social_media a { color: white; display: inline-block; margin-right: 8px; }
+/* Tablet */
+@media (max-width: 1024px) {
+    .team_container .member{
+    width: 48%;
+}
+  .header_content { max-width: 640px; }
+  .work_images img { flex: 1 1 calc(50% - 16px); }
+  .team_container .member img { height: 200px; }
+}
+
+/* Small tablets / large phones */
+@media (max-width: 600px) {
+  /* Menu: make nav links stack below the task_bar (no JS) */
+  .right_bar {
+    display: none;
+    flex-direction: column;
+    position: static;
+    gap: 0;
+    background: white;
+    width: 100%;
+  }
+  /* Each link full width */
+    #menu_icon {
+    display: block;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+  }
+  .viewport img { height: 260px; }
+  /* Stack big blocks vertically */
+  .about_container .about, .team_container .member, .pricing_container .price_box {
+    flex: 1 1 100%;
+  }
+  .work_images img{
+    width: 47%;
+}
+}
+
+/* Phones */
+@media (max-width: 480px) {
+.work_images img{
+    width: 98%;
+}
+  .header_content { padding: 18px; }
+  .viewport img { height: 200px; }
+  .work_images img { flex: 1 1 100%; height: 180px; }
+  .pricing { padding: 24px 12px; }
+  .task_bar { padding: 8px 12px; }
+}
+

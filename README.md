@@ -1,11 +1,69 @@
-# React + TypeScript + Vite
+# 🏥 Medical Appointment Booking System
+## Hệ thống Đặt lịch Khám bệnh
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete medical appointment booking system with 21 fully functional pages built with React + TypeScript + Vite + Material-UI.
 
-Currently, two official plugins are available:
+> 📖 **[Đọc hướng dẫn tiếng Việt tại đây](./HUONG_DAN.md)** - Vietnamese documentation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Quick Start
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run development server
+```bash
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser.
+
+### Build for production
+```bash
+npm run build
+```
+
+## 👥 Test Accounts
+
+| Role | Email | Password | Login URL |
+|------|-------|----------|-----------|
+| **Admin** | admin@hospital.vn | 123456 | /admin/login |
+| **Doctor** | bs.nguyenvana@hospital.vn | 123456 | /doctor/login |
+| **Patient** | patient1@gmail.com | 123456 | /patient/login |
+
+Or register a new patient account at `/patient/register`
+
+## 📦 Features
+
+### Patient Module (8 pages)
+- Registration & Login
+- Dashboard with appointment statistics
+- 4-step booking wizard (specialty → service/doctor → date/shift → confirm)
+- Appointment management with 5 status tabs
+- Medical history with prescription details
+
+### Admin Module (10 pages)
+- User, Doctor, Specialty, Service, and Shift management
+- Appointment approval workflow
+- Patient check-in system
+- Comprehensive appointment tracking
+
+### Doctor Module (3 pages)
+- Appointment dashboard with filters
+- Examination page with medical records & prescriptions
+- Patient history view
+
+## 🛠️ Tech Stack
+
+- **React 19** + **TypeScript**
+- **Vite 7** - Build tool
+- **Material-UI v7** - UI components
+- **React Router v6** - Routing
+- **React Hook Form** + **Yup** - Forms & validation
+- **Axios** - HTTP client
+- **date-fns** - Date utilities
+- **react-toastify** - Notifications
 
 ## React Compiler
 

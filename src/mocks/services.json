@@ -1,0 +1,227 @@
+[
+  {
+    "id": "SV001",
+    "name": "Khám tim mạch tổng quát",
+    "specialtyId": "SP001",
+    "price": 300000,
+    "duration": 30,
+    "description": "Khám tổng quát các bệnh về tim mạch",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV002",
+    "name": "Siêu âm tim",
+    "specialtyId": "SP001",
+    "price": 500000,
+    "duration": 45,
+    "description": "Siêu âm kiểm tra chức năng tim",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV003",
+    "name": "Điện tâm đồ",
+    "specialtyId": "SP001",
+    "price": 200000,
+    "duration": 20,
+    "description": "Đo điện tâm đồ kiểm tra nhịp tim",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV004",
+    "name": "Khám da liễu tổng quát",
+    "specialtyId": "SP002",
+    "price": 250000,
+    "duration": 30,
+    "description": "Khám và điều trị các bệnh về da",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV005",
+    "name": "Điều trị mụn",
+    "specialtyId": "SP002",
+    "price": 400000,
+    "duration": 45,
+    "description": "Điều trị mụn trứng cá",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV006",
+    "name": "Điều trị nám da",
+    "specialtyId": "SP002",
+    "price": 600000,
+    "duration": 60,
+    "description": "Điều trị nám và tàn nhang",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV007",
+    "name": "Khám nhi tổng quát",
+    "specialtyId": "SP003",
+    "price": 200000,
+    "duration": 30,
+    "description": "Khám sức khỏe tổng quát cho trẻ em",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV008",
+    "name": "Tiêm chủng",
+    "specialtyId": "SP003",
+    "price": 150000,
+    "duration": 15,
+    "description": "Tiêm các loại vaccine cho trẻ",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV009",
+    "name": "Khám hô hấp trẻ em",
+    "specialtyId": "SP003",
+    "price": 250000,
+    "duration": 30,
+    "description": "Khám các bệnh về đường hô hấp",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV010",
+    "name": "Khám nội tổng quát",
+    "specialtyId": "SP004",
+    "price": 250000,
+    "duration": 30,
+    "description": "Khám nội khoa tổng quát",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV011",
+    "name": "Khám tiêu hóa",
+    "specialtyId": "SP004",
+    "price": 300000,
+    "duration": 30,
+    "description": "Khám các bệnh về đường tiêu hóa",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV012",
+    "name": "Khám hô hấp",
+    "specialtyId": "SP004",
+    "price": 300000,
+    "duration": 30,
+    "description": "Khám các bệnh về hô hấp",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV013",
+    "name": "Khám ngoại tổng quát",
+    "specialtyId": "SP005",
+    "price": 250000,
+    "duration": 30,
+    "description": "Khám ngoại khoa tổng quát",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV014",
+    "name": "Phẫu thuật nhỏ",
+    "specialtyId": "SP005",
+    "price": 1000000,
+    "duration": 60,
+    "description": "Các phẫu thuật nhỏ",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV015",
+    "name": "Khám tai mũi họng",
+    "specialtyId": "SP006",
+    "price": 250000,
+    "duration": 30,
+    "description": "Khám các bệnh về tai mũi họng",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV016",
+    "name": "Nội soi tai mũi họng",
+    "specialtyId": "SP006",
+    "price": 400000,
+    "duration": 30,
+    "description": "Nội soi kiểm tra tai mũi họng",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV017",
+    "name": "Lấy ráy tai",
+    "specialtyId": "SP006",
+    "price": 150000,
+    "duration": 15,
+    "description": "Lấy ráy tai bằng máy hút",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV018",
+    "name": "Khám mắt tổng quát",
+    "specialtyId": "SP007",
+    "price": 200000,
+    "duration": 30,
+    "description": "Khám và đo thị lực",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV019",
+    "name": "Đo khúc xạ mắt",
+    "specialtyId": "SP007",
+    "price": 150000,
+    "duration": 20,
+    "description": "Đo độ cận, viễn, loạn",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV020",
+    "name": "Khám đáy mắt",
+    "specialtyId": "SP007",
+    "price": 300000,
+    "duration": 30,
+    "description": "Kiểm tra đáy mắt, võng mạc",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV021",
+    "name": "Khám nha tổng quát",
+    "specialtyId": "SP008",
+    "price": 150000,
+    "duration": 30,
+    "description": "Khám răng miệng tổng quát",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV022",
+    "name": "Lấy cao răng",
+    "specialtyId": "SP008",
+    "price": 200000,
+    "duration": 30,
+    "description": "Lấy cao răng và vệ sinh răng miệng",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV023",
+    "name": "Trám răng",
+    "specialtyId": "SP008",
+    "price": 300000,
+    "duration": 45,
+    "description": "Trám răng sâu",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV024",
+    "name": "Nhổ răng",
+    "specialtyId": "SP008",
+    "price": 400000,
+    "duration": 30,
+    "description": "Nhổ răng sâu, răng khôn",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "SV025",
+    "name": "Tẩy trắng răng",
+    "specialtyId": "SP008",
+    "price": 1500000,
+    "duration": 60,
+    "description": "Tẩy trắng răng công nghệ cao",
+    "status": "ACTIVE"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "MR001",
+    "appointmentId": "APT001",
+    "patientId": "P006",
+    "doctorId": "D005",
+    "symptoms": "Sốt cao, ho khan",
+    "diagnosis": "Viêm dạ dày",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR002",
+    "appointmentId": "APT002",
+    "patientId": "P008",
+    "doctorId": "D002",
+    "symptoms": "Đau đầu, chóng mặt",
+    "diagnosis": "Viêm phế quản",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR003",
+    "appointmentId": "APT003",
+    "patientId": "P021",
+    "doctorId": "D003",
+    "symptoms": "Sốt cao, ho khan",
+    "diagnosis": "Cảm cúm thông thường",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR004",
+    "appointmentId": "APT004",
+    "patientId": "P003",
+    "doctorId": "D010",
+    "symptoms": "Đau bụng, buồn nôn",
+    "diagnosis": "Viêm phế quản",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR005",
+    "appointmentId": "APT005",
+    "patientId": "P020",
+    "doctorId": "D011",
+    "symptoms": "Khó thở, mệt mỏi",
+    "diagnosis": "Huyết áp cao",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR006",
+    "appointmentId": "APT006",
+    "patientId": "P013",
+    "doctorId": "D009",
+    "symptoms": "Đau bụng, buồn nôn",
+    "diagnosis": "Viêm họng cấp",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR007",
+    "appointmentId": "APT007",
+    "patientId": "P013",
+    "doctorId": "D007",
+    "symptoms": "Đau ngực trái",
+    "diagnosis": "Viêm họng cấp",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR008",
+    "appointmentId": "APT008",
+    "patientId": "P012",
+    "doctorId": "D012",
+    "symptoms": "Đau ngực trái",
+    "diagnosis": "Viêm dạ dày",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR009",
+    "appointmentId": "APT009",
+    "patientId": "P015",
+    "doctorId": "D005",
+    "symptoms": "Khó thở, mệt mỏi",
+    "diagnosis": "Viêm họng cấp",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.706Z"
+  },
+  {
+    "id": "MR010",
+    "appointmentId": "APT010",
+    "patientId": "P015",
+    "doctorId": "D012",
+    "symptoms": "Đau đầu, chóng mặt",
+    "diagnosis": "Viêm phế quản",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.707Z"
+  },
+  {
+    "id": "MR011",
+    "appointmentId": "APT011",
+    "patientId": "P011",
+    "doctorId": "D003",
+    "symptoms": "Đau đầu, chóng mặt",
+    "diagnosis": "Cảm cúm thông thường",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.707Z"
+  },
+  {
+    "id": "MR012",
+    "appointmentId": "APT012",
+    "patientId": "P017",
+    "doctorId": "D004",
+    "symptoms": "Đau đầu, chóng mặt",
+    "diagnosis": "Cảm cúm thông thường",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.707Z"
+  },
+  {
+    "id": "MR013",
+    "appointmentId": "APT013",
+    "patientId": "P023",
+    "doctorId": "D002",
+    "symptoms": "Đau bụng, buồn nôn",
+    "diagnosis": "Viêm phế quản",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.707Z"
+  },
+  {
+    "id": "MR014",
+    "appointmentId": "APT014",
+    "patientId": "P008",
+    "doctorId": "D007",
+    "symptoms": "Khó thở, mệt mỏi",
+    "diagnosis": "Viêm phế quản",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.707Z"
+  },
+  {
+    "id": "MR015",
+    "appointmentId": "APT015",
+    "patientId": "P017",
+    "doctorId": "D001",
+    "symptoms": "Đau ngực trái",
+    "diagnosis": "Cảm cúm thông thường",
+    "notes": "Bệnh nhân cần nghỉ ngơi, uống đủ nước, tái khám sau 1 tuần nếu không đỡ",
+    "date": "2026-02-04",
+    "createdAt": "2026-02-04T18:49:32.707Z"
+  }
+]

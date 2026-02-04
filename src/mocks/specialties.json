@@ -1,0 +1,66 @@
+[
+  {
+    "id": "SP001",
+    "name": "Tim mạch",
+    "description": "Chuyên khoa điều trị các bệnh về tim mạch, huyết áp, mạch máu",
+    "status": "ACTIVE",
+    "icon": "favorite",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "SP002",
+    "name": "Da liễu",
+    "description": "Chuyên khoa điều trị các bệnh về da, viêm da, dị ứng da",
+    "status": "ACTIVE",
+    "icon": "face",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "SP003",
+    "name": "Nhi khoa",
+    "description": "Chuyên khoa chăm sóc sức khỏe trẻ em từ 0-16 tuổi",
+    "status": "ACTIVE",
+    "icon": "child_care",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "SP004",
+    "name": "Nội khoa",
+    "description": "Chuyên khoa điều trị các bệnh nội khoa tổng quát",
+    "status": "ACTIVE",
+    "icon": "medical_services",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "SP005",
+    "name": "Ngoại khoa",
+    "description": "Chuyên khoa phẫu thuật và can thiệp ngoại khoa",
+    "status": "ACTIVE",
+    "icon": "healing",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "SP006",
+    "name": "Tai Mũi Họng",
+    "description": "Chuyên khoa điều trị các bệnh về tai, mũi, họng",
+    "status": "ACTIVE",
+    "icon": "hearing",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "SP007",
+    "name": "Mắt",
+    "description": "Chuyên khoa điều trị các bệnh về mắt, thị lực",
+    "status": "ACTIVE",
+    "icon": "visibility",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "SP008",
+    "name": "Răng Hàm Mặt",
+    "description": "Chuyên khoa nha khoa và điều trị răng hàm mặt",
+    "status": "ACTIVE",
+    "icon": "sentiment_satisfied",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]

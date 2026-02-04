@@ -9,9 +9,7 @@ import {
   Typography,
   TextField,
   Button,
-  Grid2 as Grid,
   CircularProgress,
-  Chip,
   Table,
   TableBody,
   TableCell,
@@ -62,7 +60,7 @@ const medicationSchema = yup.object().shape({
 interface MedicalRecordForm {
   symptoms: string;
   diagnosis: string;
-  notes: string;
+  notes?: string;
 }
 
 interface MedicationForm {
@@ -92,7 +90,7 @@ const Examination: React.FC = () => {
   const [saving, setSaving] = useState(false);
 
   const { control: recordControl, handleSubmit: handleRecordSubmit, formState: { errors: recordErrors } } = useForm<MedicalRecordForm>({
-    resolver: yupResolver(medicalRecordSchema),
+    resolver: yupResolver(medicalRecordSchema) as any,
     defaultValues: {
       symptoms: '',
       diagnosis: '',
@@ -290,50 +288,50 @@ const Examination: React.FC = () => {
         <Typography variant="h6" fontWeight="bold" mb={2}>
           Thông tin bệnh nhân
         </Typography>
-        <Grid container spacing={2}>
-          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+        <Box display="flex" flexWrap="wrap" gap={2}>
+          <Box sx={{ minWidth: 200 }}>
             <Typography variant="body2" color="text.secondary">Họ tên</Typography>
             <Typography variant="body1" fontWeight="bold">{patient.name}</Typography>
-          </Grid>
-          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+          </Box>
+          <Box sx={{ minWidth: 200 }}>
             <Typography variant="body2" color="text.secondary">Tuổi</Typography>
             <Typography variant="body1">{calculateAge(patient.dateOfBirth)} tuổi</Typography>
-          </Grid>
-          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+          </Box>
+          <Box sx={{ minWidth: 200 }}>
             <Typography variant="body2" color="text.secondary">Giới tính</Typography>
             <Typography variant="body1">
               {patient.gender === 'MALE' ? 'Nam' : patient.gender === 'FEMALE' ? 'Nữ' : 'Khác'}
             </Typography>
-          </Grid>
-          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+          </Box>
+          <Box sx={{ minWidth: 200 }}>
             <Typography variant="body2" color="text.secondary">Số điện thoại</Typography>
             <Typography variant="body1">{patient.phone}</Typography>
-          </Grid>
-        </Grid>
+          </Box>
+        </Box>
 
         <Divider sx={{ my: 2 }} />
 
         <Typography variant="subtitle1" fontWeight="bold" mb={1}>
           Thông tin cuộc hẹn
         </Typography>
-        <Grid container spacing={2}>
-          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+        <Box display="flex" flexWrap="wrap" gap={2}>
+          <Box sx={{ minWidth: 200 }}>
             <Typography variant="body2" color="text.secondary">Ngày khám</Typography>
             <Typography variant="body1">{formatDate(appointment.date)}</Typography>
-          </Grid>
-          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+          </Box>
+          <Box sx={{ minWidth: 200 }}>
             <Typography variant="body2" color="text.secondary">Giờ</Typography>
             <Typography variant="body1">{appointment.time}</Typography>
-          </Grid>
-          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+          </Box>
+          <Box sx={{ minWidth: 200 }}>
             <Typography variant="body2" color="text.secondary">Dịch vụ</Typography>
             <Typography variant="body1">{service.name}</Typography>
-          </Grid>
-          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
+          </Box>
+          <Box sx={{ minWidth: 200 }}>
             <Typography variant="body2" color="text.secondary">Lý do khám</Typography>
             <Typography variant="body1">{appointment.reason}</Typography>
-          </Grid>
-        </Grid>
+          </Box>
+        </Box>
 
         <Divider sx={{ my: 2 }} />
 
@@ -379,9 +377,9 @@ const Examination: React.FC = () => {
         )}
       </Paper>
 
-      <Grid container spacing={3}>
+      <Box display="flex" gap={3} flexDirection={{ xs: 'column', md: 'row' }}>
         {/* Section 2: Medical Record Form */}
-        <Grid size={{ xs: 12, md: 6 }}>
+        <Box sx={{ flex: 1 }}>
           <Paper sx={{ p: 3 }}>
             <Typography variant="h6" fontWeight="bold" mb={2}>
               Hồ sơ bệnh án
@@ -451,10 +449,10 @@ const Examination: React.FC = () => {
               </Box>
             </form>
           </Paper>
-        </Grid>
+        </Box>
 
         {/* Section 3: Prescription Form */}
-        <Grid size={{ xs: 12, md: 6 }}>
+        <Box sx={{ flex: 1 }}>
           <Paper sx={{ p: 3 }}>
             <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
               <Typography variant="h6" fontWeight="bold">
@@ -521,39 +519,35 @@ const Examination: React.FC = () => {
               Lưu đơn thuốc
             </Button>
           </Paper>
-        </Grid>
-      </Grid>
+        </Box>
+      </Box>
 
       {/* Section 4: Actions */}
       <Paper sx={{ p: 3, mt: 3 }}>
-        <Grid container spacing={2}>
-          <Grid size={{ xs: 12, sm: 6 }}>
-            <Button
-              variant="contained"
-              color="success"
-              startIcon={<CheckCircle />}
-              onClick={() => setOpenCompleteDialog(true)}
-              disabled={!savedMedicalRecordId || saving}
-              fullWidth
-              size="large"
-            >
-              Hoàn tất khám
-            </Button>
-          </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
-            <Button
-              variant="outlined"
-              color="inherit"
-              startIcon={<Cancel />}
-              onClick={() => setOpenNoShowDialog(true)}
-              disabled={saving}
-              fullWidth
-              size="large"
-            >
-              Đánh dấu không đến
-            </Button>
-          </Grid>
-        </Grid>
+        <Box display="flex" gap={2} flexDirection={{ xs: 'column', sm: 'row' }}>
+          <Button
+            variant="contained"
+            color="success"
+            startIcon={<CheckCircle />}
+            onClick={() => setOpenCompleteDialog(true)}
+            disabled={!savedMedicalRecordId || saving}
+            fullWidth
+            size="large"
+          >
+            Hoàn tất khám
+          </Button>
+          <Button
+            variant="outlined"
+            color="inherit"
+            startIcon={<Cancel />}
+            onClick={() => setOpenNoShowDialog(true)}
+            disabled={saving}
+            fullWidth
+            size="large"
+          >
+            Đánh dấu không đến
+          </Button>
+        </Box>
       </Paper>
 
       {/* Medication Dialog */}

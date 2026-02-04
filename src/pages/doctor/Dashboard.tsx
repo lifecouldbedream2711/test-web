@@ -24,7 +24,6 @@ import {
   AccordionDetails,
   ButtonGroup,
   TextField,
-  Grid2 as Grid,
 } from '@mui/material';
 import {
   ExpandMore,
@@ -34,11 +33,10 @@ import {
 import { toast } from 'react-toastify';
 import { useAuth } from '../../contexts/AuthContext';
 import { appointmentService } from '../../services/appointmentService';
-import { doctorService } from '../../services/doctorService';
 import { patientService } from '../../services/patientService';
 import { serviceService } from '../../services/serviceService';
 import { medicalRecordService } from '../../services/medicalRecordService';
-import type { Appointment, Patient, Service, MedicalRecord } from '../../types';
+import type { Appointment, Patient, MedicalRecord } from '../../types';
 
 interface AppointmentWithDetails extends Appointment {
   patientName?: string;
@@ -195,55 +193,49 @@ const Dashboard: React.FC = () => {
 
       <Paper sx={{ p: 3, mb: 3 }}>
         <Typography variant="h6" mb={2}>Lọc theo thời gian</Typography>
-        <Grid container spacing={2} alignItems="center">
-          <Grid>
-            <ButtonGroup variant="outlined">
-              <Button
-                variant={dateFilter === 'today' ? 'contained' : 'outlined'}
-                onClick={() => setDateFilter('today')}
-              >
-                Hôm nay
-              </Button>
-              <Button
-                variant={dateFilter === 'week' ? 'contained' : 'outlined'}
-                onClick={() => setDateFilter('week')}
-              >
-                Tuần này
-              </Button>
-              <Button
-                variant={dateFilter === 'custom' ? 'contained' : 'outlined'}
-                onClick={() => setDateFilter('custom')}
-              >
-                Tùy chỉnh
-              </Button>
-            </ButtonGroup>
-          </Grid>
+        <Box display="flex" flexWrap="wrap" gap={2} alignItems="center">
+          <ButtonGroup variant="outlined">
+            <Button
+              variant={dateFilter === 'today' ? 'contained' : 'outlined'}
+              onClick={() => setDateFilter('today')}
+            >
+              Hôm nay
+            </Button>
+            <Button
+              variant={dateFilter === 'week' ? 'contained' : 'outlined'}
+              onClick={() => setDateFilter('week')}
+            >
+              Tuần này
+            </Button>
+            <Button
+              variant={dateFilter === 'custom' ? 'contained' : 'outlined'}
+              onClick={() => setDateFilter('custom')}
+            >
+              Tùy chỉnh
+            </Button>
+          </ButtonGroup>
 
           {dateFilter === 'custom' && (
             <>
-              <Grid>
-                <TextField
-                  label="Từ ngày"
-                  type="date"
-                  value={startDate}
-                  onChange={(e) => setStartDate(e.target.value)}
-                  InputLabelProps={{ shrink: true }}
-                  size="small"
-                />
-              </Grid>
-              <Grid>
-                <TextField
-                  label="Đến ngày"
-                  type="date"
-                  value={endDate}
-                  onChange={(e) => setEndDate(e.target.value)}
-                  InputLabelProps={{ shrink: true }}
-                  size="small"
-                />
-              </Grid>
+              <TextField
+                label="Từ ngày"
+                type="date"
+                value={startDate}
+                onChange={(e) => setStartDate(e.target.value)}
+                InputLabelProps={{ shrink: true }}
+                size="small"
+              />
+              <TextField
+                label="Đến ngày"
+                type="date"
+                value={endDate}
+                onChange={(e) => setEndDate(e.target.value)}
+                InputLabelProps={{ shrink: true }}
+                size="small"
+              />
             </>
           )}
-        </Grid>
+        </Box>
       </Paper>
 
       <Paper sx={{ p: 3 }}>
@@ -335,30 +327,30 @@ const Dashboard: React.FC = () => {
             </Box>
           ) : selectedPatient ? (
             <Box>
-              <Grid container spacing={2} mb={3}>
-                <Grid size={{ xs: 12, sm: 6 }}>
+              <Box display="flex" flexWrap="wrap" gap={2} mb={3}>
+                <Box sx={{ minWidth: 200 }}>
                   <Typography variant="body2" color="text.secondary">Họ tên</Typography>
                   <Typography variant="body1" fontWeight="bold">{selectedPatient.name}</Typography>
-                </Grid>
-                <Grid size={{ xs: 12, sm: 6 }}>
+                </Box>
+                <Box sx={{ minWidth: 200 }}>
                   <Typography variant="body2" color="text.secondary">Ngày sinh</Typography>
                   <Typography variant="body1">{selectedPatient.dateOfBirth ? formatDate(selectedPatient.dateOfBirth) : 'N/A'}</Typography>
-                </Grid>
-                <Grid size={{ xs: 12, sm: 6 }}>
+                </Box>
+                <Box sx={{ minWidth: 200 }}>
                   <Typography variant="body2" color="text.secondary">Giới tính</Typography>
                   <Typography variant="body1">
                     {selectedPatient.gender === 'MALE' ? 'Nam' : selectedPatient.gender === 'FEMALE' ? 'Nữ' : 'Khác'}
                   </Typography>
-                </Grid>
-                <Grid size={{ xs: 12, sm: 6 }}>
+                </Box>
+                <Box sx={{ minWidth: 200 }}>
                   <Typography variant="body2" color="text.secondary">Số điện thoại</Typography>
                   <Typography variant="body1">{selectedPatient.phone}</Typography>
-                </Grid>
-                <Grid size={{ xs: 12 }}>
+                </Box>
+                <Box sx={{ flex: '1 1 100%' }}>
                   <Typography variant="body2" color="text.secondary">Địa chỉ</Typography>
                   <Typography variant="body1">{selectedPatient.address || 'N/A'}</Typography>
-                </Grid>
-              </Grid>
+                </Box>
+              </Box>
 
               <Typography variant="h6" fontWeight="bold" mb={2}>
                 Lịch sử khám bệnh

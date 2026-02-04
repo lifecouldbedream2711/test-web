@@ -96,4 +96,53 @@ export const doctorService = {
       }, 500);
     });
   },
+
+  getAppointmentDetail: async (appointmentId: string) => {
+    const { appointmentService } = await import('./appointmentService');
+    const { patientService } = await import('./patientService');
+    const { serviceService } = await import('./serviceService');
+    
+    return new Promise(async (resolve, reject) => {
+      setTimeout(async () => {
+        try {
+          const appointment = await appointmentService.getById(appointmentId);
+          const patient = await patientService.getProfile(appointment.patientId);
+          const doctor = await doctorService.getById(appointment.doctorId);
+          const service = await serviceService.getById(appointment.serviceId);
+          
+          resolve({
+            ...appointment,
+            patient,
+            doctor,
+            service,
+          });
+        } catch (error) {
+          reject(error);
+        }
+      }, 300);
+    });
+  },
+
+  getPatientHistory: async (patientId: string) => {
+    const { patientService } = await import('./patientService');
+    const { appointmentService } = await import('./appointmentService');
+    const { medicalRecordService } = await import('./medicalRecordService');
+    
+    return new Promise(async (resolve) => {
+      setTimeout(async () => {
+        const patient = await patientService.getProfile(patientId);
+        const appointments = await appointmentService.getAll({ 
+          patientId, 
+          status: 'DONE' 
+        });
+        const medicalRecords = await medicalRecordService.getByPatient(patientId);
+        
+        resolve({
+          patient,
+          appointments,
+          medicalRecords,
+        });
+      }, 300);
+    });
+  },
 };

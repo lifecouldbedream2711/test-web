@@ -231,4 +231,22 @@ export const appointmentService = {
       }, 500);
     });
   },
+
+  updateStatus: async (appointmentId: string, status: AppointmentStatus): Promise<Appointment> => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        const appointment = appointments.find(a => a.id === appointmentId);
+        if (appointment) {
+          const updatedAppointment: Appointment = {
+            ...appointment,
+            status,
+            updatedAt: new Date().toISOString(),
+          };
+          resolve(updatedAppointment);
+        } else {
+          reject(new Error('Không tìm thấy lịch hẹn'));
+        }
+      }, 500);
+    });
+  },
 };

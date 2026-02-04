@@ -91,12 +91,14 @@ export const shiftService = {
     });
   },
 
-  create: async (data: Omit<Shift, 'id' | 'createdAt' | 'updatedAt'>): Promise<Shift> => {
+  create: async (data: Omit<Shift, 'id' | 'createdAt' | 'updatedAt' | 'bookedCount' | 'status'>): Promise<Shift> => {
     return new Promise((resolve) => {
       setTimeout(() => {
         const newShift: Shift = {
           ...data,
           id: `SH${String(shifts.length + 1).padStart(3, '0')}`,
+          bookedCount: 0,
+          status: 'OPEN',
           createdAt: new Date().toISOString(),
           updatedAt: new Date().toISOString(),
         };
@@ -129,6 +131,24 @@ export const shiftService = {
         const shift = shifts.find(s => s.id === shiftId);
         if (shift) {
           resolve();
+        } else {
+          reject(new Error('Không tìm thấy ca làm việc'));
+        }
+      }, 500);
+    });
+  },
+
+  updateStatus: async (shiftId: string, status: 'OPEN' | 'CLOSED'): Promise<Shift> => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        const shift = shifts.find(s => s.id === shiftId);
+        if (shift) {
+          const updatedShift: Shift = {
+            ...shift,
+            status,
+            updatedAt: new Date().toISOString(),
+          };
+          resolve(updatedShift);
         } else {
           reject(new Error('Không tìm thấy ca làm việc'));
         }

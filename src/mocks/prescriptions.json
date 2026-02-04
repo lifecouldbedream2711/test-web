@@ -1,0 +1,409 @@
+[
+  {
+    "id": "PRE001",
+    "medicalRecordId": "MR001",
+    "medications": [
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 20
+      },
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 24
+      },
+      {
+        "name": "Vitamin C 1000mg",
+        "dosage": "1000mg",
+        "usage": "Uống mỗi ngày",
+        "days": 10,
+        "quantity": 26
+      },
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 25
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.810Z"
+  },
+  {
+    "id": "PRE002",
+    "medicalRecordId": "MR002",
+    "medications": [
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 12
+      },
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 18
+      },
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 18
+      },
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 12
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.810Z"
+  },
+  {
+    "id": "PRE003",
+    "medicalRecordId": "MR003",
+    "medications": [
+      {
+        "name": "Vitamin C 1000mg",
+        "dosage": "1000mg",
+        "usage": "Uống mỗi ngày",
+        "days": 10,
+        "quantity": 22
+      },
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 25
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 19
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.810Z"
+  },
+  {
+    "id": "PRE004",
+    "medicalRecordId": "MR004",
+    "medications": [
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 21
+      },
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 16
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 24
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.810Z"
+  },
+  {
+    "id": "PRE005",
+    "medicalRecordId": "MR005",
+    "medications": [
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 27
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 18
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.810Z"
+  },
+  {
+    "id": "PRE006",
+    "medicalRecordId": "MR006",
+    "medications": [
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 19
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 19
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.810Z"
+  },
+  {
+    "id": "PRE007",
+    "medicalRecordId": "MR007",
+    "medications": [
+      {
+        "name": "Vitamin C 1000mg",
+        "dosage": "1000mg",
+        "usage": "Uống mỗi ngày",
+        "days": 10,
+        "quantity": 25
+      },
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 10
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.810Z"
+  },
+  {
+    "id": "PRE008",
+    "medicalRecordId": "MR008",
+    "medications": [
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 15
+      },
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 29
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.811Z"
+  },
+  {
+    "id": "PRE009",
+    "medicalRecordId": "MR009",
+    "medications": [
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 25
+      },
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 22
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.811Z"
+  },
+  {
+    "id": "PRE010",
+    "medicalRecordId": "MR010",
+    "medications": [
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 19
+      },
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 14
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.811Z"
+  },
+  {
+    "id": "PRE011",
+    "medicalRecordId": "MR011",
+    "medications": [
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "500mg",
+        "usage": "Uống sau ăn",
+        "days": 7,
+        "quantity": 22
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 25
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 29
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.811Z"
+  },
+  {
+    "id": "PRE012",
+    "medicalRecordId": "MR012",
+    "medications": [
+      {
+        "name": "Vitamin C 1000mg",
+        "dosage": "1000mg",
+        "usage": "Uống mỗi ngày",
+        "days": 10,
+        "quantity": 24
+      },
+      {
+        "name": "Vitamin C 1000mg",
+        "dosage": "1000mg",
+        "usage": "Uống mỗi ngày",
+        "days": 10,
+        "quantity": 27
+      },
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 25
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.811Z"
+  },
+  {
+    "id": "PRE013",
+    "medicalRecordId": "MR013",
+    "medications": [
+      {
+        "name": "Vitamin C 1000mg",
+        "dosage": "1000mg",
+        "usage": "Uống mỗi ngày",
+        "days": 10,
+        "quantity": 22
+      },
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 20
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.811Z"
+  },
+  {
+    "id": "PRE014",
+    "medicalRecordId": "MR014",
+    "medications": [
+      {
+        "name": "Vitamin C 1000mg",
+        "dosage": "1000mg",
+        "usage": "Uống mỗi ngày",
+        "days": 10,
+        "quantity": 29
+      },
+      {
+        "name": "Vitamin C 1000mg",
+        "dosage": "1000mg",
+        "usage": "Uống mỗi ngày",
+        "days": 10,
+        "quantity": 18
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 24
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.811Z"
+  },
+  {
+    "id": "PRE015",
+    "medicalRecordId": "MR015",
+    "medications": [
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 15
+      },
+      {
+        "name": "Paracetamol 500mg",
+        "dosage": "500mg",
+        "usage": "Uống khi sốt hoặc đau",
+        "days": 5,
+        "quantity": 18
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 19
+      },
+      {
+        "name": "Cefuroxime 250mg",
+        "dosage": "250mg",
+        "usage": "Uống trước ăn",
+        "days": 5,
+        "quantity": 27
+      }
+    ],
+    "notes": "Uống thuốc đầy đủ theo chỉ định. Tái khám nếu có triệu chứng bất thường.",
+    "createdAt": "2026-02-04T18:49:32.811Z"
+  }
+]
